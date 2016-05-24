@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="left"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:gravity="left"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="Why i should take the course?or presiely i know matehmatics"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:autoLink="web"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Whether you are seasoned in the area of Mathematics or you have need extra help with Algebra 1, we will take you through Basic Mathematics to Trigonometry. There is something for every learner in Mathematics. Whether you are venturing into Pre-Algebra and new to mathematical Processes or you are prepping for College Algebra and want to challenge yourself with Calculus 1, the spectrum is wide and knowledge is vast. In Measurement, you will explore Volume and Distance Conversions. Fundamentals offers so much more than Counting Patterns and Combining Shapes; it offers a solid foundation upon which you can build! Arithmetic helps make that foundation strong with basic expertise in Multiplication and Rules for Combining Numbers. You will learn that Basic Identities has nothing to do with psychology, but it has everything to do with Trigonometry. As you make your way through Mathematics, you will begin to learn a new language that will help organize and categorize the world around you."
+        android:layout_below="@+id/textView"
+        android:textStyle="italic"/>
+
+</RelativeLayout>

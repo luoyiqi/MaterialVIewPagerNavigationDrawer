@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item android:title="Dashboard"
+        android:id="@+id/nav_item_inbox"
+        android:icon="@drawable/dashboards"/>
+
+    <item android:title="Courses"
+        android:id="@+id/nav_item_sent"
+        android:icon="@drawable/course"/>
+
+    <item android:title="Progress"
+        android:id="@+id/nav_item_draft"
+        android:icon="@drawable/progress"/>
+
+    <item android:title="Notification"
+        android:id="@+id/nav_item_noti"
+        android:icon="@drawable/notification"/>
+
+    <item android:title="Settings"
+        android:id="@+id/nav_item_settings"
+        android:icon="@drawable/settings"/>
+
+    <item android:title="About"
+        android:id="@+id/nav_item_about"
+        android:icon="@drawable/about"/>
+
+
+
+
+
+
+
+
+
+</menu>
